@@ -4,6 +4,63 @@
     "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppTest\\LegacyAppTest.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
+        "projectName": "LegacyAppConsumer",
+        "projectPath": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
+        "packagesPath": "C:\\Users\\Piotr Zadykowicz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Piotr Zadykowicz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyApp\\LegacyApp.csproj": {
+                "projectPath": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyApp\\LegacyApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Piotr Zadykowicz\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppTest\\LegacyAppTest.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +83,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {
+                "projectPath": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj"
+              },
               "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyApp\\LegacyApp.csproj": {
                 "projectPath": "C:\\Users\\Piotr Zadykowicz\\Desktop\\Polsko-Japońska\\Semestr 6\\APBD\\zadanie\\LegacyApp\\LegacyApp.csproj"
               }
