@@ -35,3 +35,4 @@ C:\Users\Piotr Zadykowicz\Desktop\Polsko-Japońska\Semestr 6\APBD\zadanie\Legacy
 C:\Users\Piotr Zadykowicz\Desktop\Polsko-Japońska\Semestr 6\APBD\zadanie\LegacyAppConsumer\obj\Debug\net8.0\LegacyAppConsumer.pdb
 C:\Users\Piotr Zadykowicz\Desktop\Polsko-Japońska\Semestr 6\APBD\zadanie\LegacyAppConsumer\obj\Debug\net8.0\LegacyAppConsumer.genruntimeconfig.cache
 C:\Users\Piotr Zadykowicz\Desktop\Polsko-Japońska\Semestr 6\APBD\zadanie\LegacyAppConsumer\obj\Debug\net8.0\ref\LegacyAppConsumer.dll
+C:\Users\Piotr Zadykowicz\Desktop\Polsko-Japońska\Semestr 6\APBD\zadanie\LegacyAppConsumer\obj\Debug\net8.0\LegacyAppConsumer.sourcelink.json
