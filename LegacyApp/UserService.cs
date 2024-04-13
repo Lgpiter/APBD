@@ -68,5 +68,15 @@ namespace LegacyApp
             UserDataAccess.AddUser(user);
             return true;
         }
+
+        public bool checkUserName(string firstName, string lastName)
+        {
+            return string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName);
+        }
+
+        public bool checUserEmail(string email)
+        {
+            return !email.Contains("@") && !email.Contains(".");
+        }
     }
 }

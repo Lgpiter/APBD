@@ -2,7 +2,7 @@ using LegacyApp;
 
 namespace LegacyAppTest;
 
-public class userAdditionReturnTrue
+public class userAdditionEmailCheck
 {
     [Fact]
     public void AddUser_Should_Return_true_when_email_with_at_and_dot()
@@ -24,14 +24,15 @@ public class userAdditionReturnTrue
             Assert.Equal(true, result);
     }
 
-    public void AddUser_Should_Return_false_when_email_without_at()
+    [Fact]
+    public void AddUser_Should_Return_false_when_email_without_at_and_dot()
     {
         //Arrange
         string firstName = "John";
         string lastName = "Doe";
         DateTime birthDate = new DateTime(2001, 12, 08);
         int clientId = 1;
-        string email = "doe@gmail";
+        string email = "doe";
         var userService = new UserService();
         
         //Act
