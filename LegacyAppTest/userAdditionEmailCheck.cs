@@ -32,7 +32,7 @@ public class userAdditionEmailCheck
         string lastName = "Doe";
         DateTime birthDate = new DateTime(2001, 12, 08);
         int clientId = 1;
-        string email = "doe";
+        string email = "johnDoe";
         var userService = new UserService();
         
         //Act
